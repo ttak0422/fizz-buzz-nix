@@ -14,7 +14,7 @@
         inherit (pkgs) runCommand writeText;
         inherit (pkgs.lib) mod runTests;
 
-        source = [ 1 2 3 4 5 6 7 8 9 0 11 12 13 14 15 16 17 18 19 20 ];
+        source = [ 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 ];
 
         fizzBuzz = n:
           if mod n 15 == 0 then
